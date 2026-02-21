@@ -2,7 +2,6 @@ package SmallProject;
 
 import java.util.Scanner;
 
-// Node class for Linked List (Chaining)
 class Node {
     String name;
     String phone;
@@ -146,7 +145,6 @@ public class ContactSearchSystem {
 
         Scanner sc = new Scanner(System.in);
         ContactSearchSystem system = new ContactSearchSystem(10);
-
         int choice;
 
         do {
